@@ -9,10 +9,11 @@
 
 from PySide import QtCore, QtGui
 from Convolution import ImageConvolution
-import resources.img.source_qr
 import tempfile
 import os
 import shutil
+import source_qr
+
 
 class Ui_MainWindow(object):
     
@@ -292,7 +293,7 @@ class Ui_MainWindow(object):
         
     def onClickAboutProject(self):        
         QtGui.QMessageBox.about(self.__MainWindow,"About this Aplication",u"This application was created by:\n"+
-        "    Camilo Ramírez @camilortte on Twitter.\n"+
+        u"    Camilo Ramírez @camilortte on Twitter.\n"+
         "    Visiti my Gitpage: https://github.com/camilortte\n"+
         "\nTechnology: Python + Pyside + Numpy + opencv and Qt"+
         "\n This app is avaliable under License Gplv3")

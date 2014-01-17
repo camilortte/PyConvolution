@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="source_img">
+    <file>img/icon/save_icon.png</file>
+    <file>img/icon/clear.png</file>
+    <file>img/icon/Open_folder.png</file>
+    <file>img/icon/python.png</file>
+  </qresource>  
+</RCC>
